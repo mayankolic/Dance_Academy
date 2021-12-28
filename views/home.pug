@@ -1,0 +1,54 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style     
+   style 
+    include ../static/style.css
+
+
+block content
+           
+    section#introsection 
+        div.q Welcome to Mayank's Dance Academy   
+        div.q Mast Raho masti me chahe aag lage basti me!
+        
+    section#mission 
+        h2 Our Mission
+        div.card
+          h3 Dance like the way you like 
+          div.card-box
+            div.card-img
+                img(src="/static/t1.jpg", alt="")
+            div.card-content
+                p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, quaerat.
+        div.card
+          h3 Just Beat The Shit Out of You!!
+          div.card-box
+            div.card-img
+                img(src="/static/t2.png", alt="")
+            div.card-content
+                p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, quaerat.        
+        div.card
+          h3 Yoga se he hoga Bro!!
+          div.card-box
+            div.card-img
+                img(src="/static/t3.jpg", alt="")
+            div.card-content
+                p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, quaerat.        
+                        
+           
+
+            
+        
+    section#sponsorships 
+        h2  Section for Sponsors 
+        div#sponsers
+            img(class="spons" src="/static/s1.jpg", alt="spons")
+            img(class="spons" src="/static/s2.jpg", alt="spons")
+            img(class="spons" src="/static/s3.jpg", alt="spons")
+            img(class="spons" src="/static/s4.jpg", alt="spons")
+     
+    footer#footer 
+        Copyright &copy 2021 MDA.com          

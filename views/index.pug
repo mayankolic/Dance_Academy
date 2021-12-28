@@ -1,0 +1,56 @@
+doctype html 
+html 
+    head 
+      style 
+        include ../static/style.css 
+    body 
+        nav#navbar
+            ul
+                div#logo
+                    img(src="/static/logo.png", alt="",)
+                    |MDA
+                li #[a(href="/home" ) Home ]
+                li #[a(href="/about" ) About ]
+                li #[a(href="/services" ) Services]
+                li #[a(href="/contactus" ) Contact Us]
+                li #[a(href="/classinfo" ) Class Info ]
+        section#introsection 
+            div.q Welcome to Mayank's Dance Academy   
+            div.q Mast Raho masti me chahe aag lage basti me!
+        
+        section#mission 
+            h2 Our Mission
+            div.card
+                h3 Dance The Way You Like! 
+                div.card-box
+                    img(src="/static/t1.jpg", alt="")
+                div.card-content
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam autem, harum ipsa alias officia ea nostrum saepe corrupti sed dicta!
+            div.card
+                h3  Just Beat The Shit Out !! 
+                div.card-box
+                    img(src="/static/t2.png", alt="")
+                div.card-content
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam autem, harum ipsa alias officia ea nostrum saepe corrupti sed dicta!  
+            div.card
+                h3 Yoga Se He Hoga ! 
+                div.card-box
+                    img(src="/static/tt3.png", alt="")
+                div.card-content
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam autem, harum ipsa alias officia ea nostrum saepe corrupti sed dicta!          
+            
+        
+        section#sponsorships 
+            h2  Section for Sponsors 
+            div#sponsers
+                img(class="spons" src="/static/s1.jpg", alt="spons")
+                img(class="spons" src="/static/s2.jpg", alt="spons")
+                img(class="spons" src="/static/s3.jpg", alt="spons")
+                img(class="spons" src="/static/s4.jpg", alt="spons")
+        
+        footer#footer 
+            Copyright &copy 2021 MDA.com 
+                
+        script 
+            include ../static/index.js     
+    

@@ -1,0 +1,152 @@
+    @import url('https://fonts.googleapis.com/css2?family=KoHo:wght@500&display=swap');
+    * {
+        margin: 0;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'KoHo', sans-serif;
+    }
+    
+    #navbar {
+        background-color: #ac9e9e;
+        padding: 13px 14px;
+    }
+    
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    li {
+        list-style-type: none;
+    }
+    
+    a {
+        text-decoration: none;
+        font-size: 1.1rem;
+        padding: 14px 20px;
+        color: white;
+    }
+    
+    a:hover {
+        text-decoration: none;
+        font-size: 1.1rem;
+        padding: 14px 20px;
+        color: black;
+        text-shadow: 2px 2px 2px black;
+    }
+    
+    #introsection {
+        color: black;
+        display: flex;
+        background: url("/static/bg.jpg") no-repeat center/cover;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        font-size: 28px;
+        height: 535px;
+        width: 100%;
+        /* background-color: red; */
+    }
+    
+    .q {
+        margin: 0px 31px;
+        font-style: italic;
+    }
+    
+    #sponsorships {
+        height: 250px;
+        /* background-color: yellow; */
+        /* margin-top: 10px; */
+    }
+    
+    #footer {
+        height: 30px;
+        background-color: rgb(48, 31, 31);
+        text-align: center;
+        color: white;
+    }
+    
+    .card {
+        display: inline-block;
+        border: 2px solid black;
+        width: 21%;
+        border-radius: 65px;
+        margin: 10px 15px;
+        height: 260px;
+        background-color: #ece8e8;
+    }
+    
+    .card h3 {
+        margin-top: 5px;
+    }
+    /* #introsection::before {
+    content: "";
+    background: url("/static/bg.jpg") no-repeat center/cover;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    z-index: -1;
+    height: 110%;
+    width: 100%;
+} */
+    
+    #sponsorships h2 {
+        text-align: center;
+        padding: 10px;
+        font-size: 31px;
+    }
+    
+    #mission {
+        height: 320px;
+        text-align: center;
+        background-color: rgb(248, 234, 218);
+    }
+    
+    #logo {
+        display: flex;
+        color: white;
+        align-items: center;
+        margin: 0px 12px;
+        text-shadow: 3px 3px 3px white;
+        position: absolute;
+        top: 5px;
+        left: 9px;
+    }
+    
+    #logo img {
+        height: 41px;
+        margin: 0px 5px;
+        border-radius: 20px;
+        filter: invert(1);
+    }
+    
+    .card-box img {
+        height: 135px;
+        width: 139px;
+        border-radius: 40px;
+        padding-top: 10px;
+    }
+    
+    #sponsers img {
+        display: inline-block;
+        height: 188px;
+        width: 200px;
+        border-radius: 97px;
+    }
+    
+    #sponsers {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 0px 169px
+    }
+    
+    #mission h2 {
+        display: block;
+    }
+    
+    .card-box {
+        display: inline-block;
+    }

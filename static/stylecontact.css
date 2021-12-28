@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+* {
+    font-family: 'Inconsolata';
+}
+
+h1 {
+    text-align: center;
+    margin: 5px 0px;
+    text-shadow: 2px 2px 5px rgb(228, 224, 203);
+}
+
+form.myf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myinput {
+    width: 40%;
+    padding: 10px 8px;
+    margin: 6px 0px;
+    border-radius: 11px;
+    border: 2px solid #947676;
+    font-size: 15px;
+    outline: none;
+    outline: none;
+}
+
+.btn {
+    padding: 12px 12px;
+    font-size: 17px;
+    border: 3px solid rgb(148, 125, 125);
+    border-radius: 12px;
+    color: black;
+    cursor: pointer;
+    outline: none;
+    margin-top: 14px;
+}
